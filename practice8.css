@@ -87,25 +87,24 @@ footer {
   background-color: #aaa;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   main {
     width: 100%;
     display: block;
-    padding: 50px 0;
-    margin: 0px;
   }
-}
 
-.header {
-  height: 50px;
-}
+  .header {
+    height: 50px;
+  }
 
-.step-box {
-  width: 90%;
-  margin: 0 auto 20px auto;
-  padding: 10px;
-}
+  .step-box {
+    width: 90%;
+    margin: 0 auto 20px auto;
+    padding: 10px;
+  }
 
-.step-box:last-child {
-  margin: auto:
+  .step-box:last-child {
+    width: 90%;
+    margin: 20px auto;
+  }
 }
